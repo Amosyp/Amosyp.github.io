@@ -4,7 +4,7 @@
   <subtitle><![CDATA[已往不谏 来者可追]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-03-13T06:30:39.890Z</updated>
+  <updated>2015-03-13T17:12:55.598Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,16 +15,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[奇怪的问题]]></title>
+    <title><![CDATA[hexo deploy成功但github不更新的问题]]></title>
     <link href="http://yoursite.com/2015/03/13/%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2015/03/13/奇怪的问题/</id>
     <published>2015-03-13T06:16:24.000Z</published>
-    <updated>2015-03-13T06:30:39.890Z</updated>
-    <content type="html"><![CDATA[<h1 id="bug记录">bug记录</h1><p>突然hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p>
+    <updated>2015-03-13T17:12:55.598Z</updated>
+    <content type="html"><![CDATA[<h1 id="bug记录">bug记录</h1><p>使用hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p>
 <h1 id="搞清楚了">搞清楚了</h1><p>每次写完文章后 hexo g 就是把写的东西生成public文件夹下面的的静态文件，然后使用 hexo deploy 将静态文件推到github上。之前的<a href="http://zipperary.com/2013/05/29/hexo-guide-3/" target="_blank" rel="external">博客</a>，里面介绍时并没有在完成博文时提到 hexo g 这个命令，导致这里出现错误，实际上是需要这两个命令的。这里又发现另外一个<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">博客</a>，介绍得也挺好。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="bug记录">bug记录</h1><p>突然hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p]]>
+    <![CDATA[<h1 id="bug记录">bug记录</h1><p>使用hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p]]>
     </summary>
     
   </entry>
