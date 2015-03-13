@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[amosyp's blog]]></title>
+  <subtitle><![CDATA[已往不谏 来者可追]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-03-13T05:29:26.434Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Yp]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我在github的第一篇文章]]></title>
+    <link href="http://yoursite.com/2015/03/13/%E6%88%91%E5%9C%A8github%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2015/03/13/我在github的第一篇文章/</id>
+    <published>2015-03-13T04:36:29.000Z</published>
+    <updated>2015-03-13T05:29:26.434Z</updated>
+    <content type="html"><![CDATA[<h1 id="github环境搭建">github环境搭建</h1><ul>
+<li>首先博客的搭建只需要在github上申请一个号，直接按照官方的指示一步步地来就是。申请完账号，安装好Git的客户端，包括一个客户端和一个shell，然后就是学习建一个仓库，可以fork别人的然后clone过来，也可以自己直接建一个仓库，这些依然还是直接按照官方的指示一步步地来就是了。</li>
+<li>在使用这个的时候发现一个git给我们的一个生成博客的方法，可以通过your_id.github.io这样的网址访问，然后就开始研究了一下怎样实现。接着就发现需要使用Jekyll来写，似乎有些麻烦，放着暂时没动。然后昨天在逛知乎的时候无意搜了一下Git，接着就发现可以使用hexo来做博客，然后就有了接下来的故事。</li>
+</ul>
+<h1 id="使用hexo生成博客">使用hexo生成博客</h1><ul>
+<li>使用hexo首先需要在电脑上安装node.js，这个随便安装在哪都行。推荐这个<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/#用Hexo克隆主题" target="_blank" rel="external">博客</a>。这个博客里面对一步步都讲得很详细了，不过中间安装hexo部分并不推荐，hexo的官方文档中对hexo的安装配置讲得比较详细，建议参考官方的文档。中间可能涉及到SSH的key问题，这个按照博客里面的一步步来就好了。之后就是设置找一个好看的模板，然后clone过来，按照自己的需要修改，之后再推到github上，这样在我们自己blog主页上就可以看见自己配置的结果了。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="github环境搭建">github环境搭建</h1><ul>
+<li>首先博客的搭建只需要在github上申请一个号，直接按照官方的指示一步步地来就是。申请完账号，安装好Git的客户端，包括一个客户端和一个shell，然后就是学习建一个仓库，可以fork别人的然]]>
+    </summary>
+    
+      <category term="博客，文章" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2015/03/13/hello-world/"/>
+    <id>http://yoursite.com/2015/03/13/hello-world/</id>
+    <published>2015-03-13T03:15:52.858Z</published>
+    <updated>2015-03-13T03:15:52.858Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
