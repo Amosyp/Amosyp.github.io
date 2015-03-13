@@ -4,7 +4,7 @@
   <subtitle><![CDATA[已往不谏 来者可追]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-03-13T05:29:26.434Z</updated>
+  <updated>2015-03-13T06:18:30.984Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[奇怪的问题]]></title>
+    <link href="http://yoursite.com/2015/03/13/%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/03/13/奇怪的问题/</id>
+    <published>2015-03-13T06:16:24.000Z</published>
+    <updated>2015-03-13T06:18:30.984Z</updated>
+    <content type="html"><![CDATA[<h1 id="bug记录">bug记录</h1><p>突然hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="bug记录">bug记录</h1><p>突然hexo deploy成功但是github上没有改变，博客也没有更新。使用hexo clean还报错。最后把.deploy文件夹删掉，重新执行hexo generate 和 hexo deploy 这回才正常回来。</p]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我在github的第一篇文章]]></title>
