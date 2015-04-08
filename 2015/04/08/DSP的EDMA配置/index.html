@@ -1,15 +1,13 @@
 
  <!DOCTYPE HTML>
-<html lang="zh-CN">
+<html >
 <head>
   <meta charset="UTF-8">
   
-    <title>Hello World | amosyp&#39;s blog</title>
+    <title>DSP的EDMA配置 | Amosyp&#39;s blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Yp">
-    
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
     
     
     
@@ -29,14 +27,14 @@
       <div>
 		
 			<div id="imglogo">
-				<a href="/"><img src="/img/logo.svg" alt="amosyp&#39;s blog" title="amosyp&#39;s blog"/></a>
+				<a href="/"><img src="/img/logo.svg" alt="Amosyp&#39;s blog" title="Amosyp&#39;s blog"/></a>
 			</div>
 			
 			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="amosyp&#39;s blog">amosyp&#39;s blog</a></h1>
-				<h2 class="blog-motto">已往不谏 来者可追</h2>
+				<h1 class="site-name"><a href="/" title="Amosyp&#39;s blog">Amosyp&#39;s blog</a></h1>
+				<h2 class="blog-motto"></h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
 			</a></div>
 			<nav class="animated">
 				<ul>
@@ -49,7 +47,7 @@
 					
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
 						<input type="hidden" name="q" value="site:yoursite.com">
 					</form>
 					
@@ -65,15 +63,15 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/03/13/hello-world/" title="Hello World" itemprop="url">Hello World</a>
+      <a href="/2015/04/08/DSP的EDMA配置/" title="DSP的EDMA配置" itemprop="url">DSP的EDMA配置</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://yoursite.com" title="Yp">Yp</a>
     </p>
   <p class="article-time">
-    <time datetime="2015-03-13T03:15:52.858Z" itemprop="datePublished">2015-03-13</time>
-    更新日期:<time datetime="2015-03-13T03:15:52.858Z" itemprop="dateModified">2015-03-13</time>
+    <time datetime="2015-04-08T03:16:34.000Z" itemprop="datePublished">2015-04-08</time>
+    Updated:<time datetime="2015-04-08T03:16:34.842Z" itemprop="dateModified">2015-04-08</time>
     
   </p>
 </header>
@@ -81,20 +79,11 @@
 		
 		
 		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+			<strong class="toc-title">Contents</strong>
+		
 		</div>
 		
-		<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-  
+		  
 	</div>
 		<footer class="article-footer clearfix">
 
@@ -103,7 +92,7 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2015/03/13/hello-world/" data-title="Hello World | amosyp&#39;s blog" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/2015/04/08/DSP的EDMA配置/" data-title="DSP的EDMA配置 | Amosyp&#39;s blog" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -112,33 +101,33 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/03/13/我在github的第一篇文章/" title="我在github的第一篇文章">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  我在github的第一篇文章</span>
+
+<div class="next">
+<a href="/2015/04/08/hello-world/"  title="Hello World">
+ <strong>NEXT:</strong><br/> 
+ <span>Hello World
+</span>
 </a>
 </div>
-
 
 </nav>
 
 	
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
   <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+  <strong class="toc-title">Contents</strong>
+  
   </div>
 
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
   
 <div class="categorieslist">
-	<p class="asidetitle">分类</p>
+	<p class="asidetitle">Categories</p>
 		<ul>
 		
 			<li><a href="/categories/blog/" title="blog">blog<sup>1</sup></a></li>
@@ -149,7 +138,7 @@
 
   
 <div class="tagslist">
-	<p class="asidetitle">标签</p>
+	<p class="asidetitle">Tags</p>
 		<ul class="clearfix">
 		
 			<li><a href="/tags/博客，文章/" title="博客，文章">博客，文章<sup>1</sup></a></li>
@@ -159,7 +148,7 @@
 
 
   <div class="rsspart">
-	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+	<a href="null" target="_blank" title="rss">RSS</a>
 </div>
 
 </aside>
